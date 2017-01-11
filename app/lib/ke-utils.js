@@ -40,6 +40,12 @@ module.exports = {
     document.body.appendChild(h);
   },
 
+  code(text) {
+    let str;
+    str = "<code>" + text + "</coce>";
+    document.write(str);
+  },
+
   log(name, value) {
     var str = name;
     if (value) {

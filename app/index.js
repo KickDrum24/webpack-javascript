@@ -1,1 +1,1 @@
-import "./components/try";
+import "./components/destructuring.assignment";
