@@ -8,10 +8,6 @@ module.exports = {
     document.write(text);
   },
 
-  p(text) {
-    document.write("<p>" + text + "</p>");
-  },
-
   wval(desc, value) {
     document.write("<p><b>" + desc + " =</b> " + value + "</p>");
   },
@@ -42,7 +38,13 @@ module.exports = {
 
   code(text) {
     let str;
-    str = "<code>" + text + "</coce>";
+    str = "<code>" + text + "</code>";
+    document.write(str);
+  },
+
+  pre(text) {
+    let str;
+    str = "<pre>" + text + "</pre>";
     document.write(str);
   },
 

@@ -24,3 +24,12 @@ body {
   margin-left: 5%;
   margin-right: 5%;
 }
+
+code {
+  background-color: black;
+}
+
+pre {
+  background-color: rgb(83, 83, 83);
+  color: tomato;
+}
