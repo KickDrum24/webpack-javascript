@@ -1,1 +1,1 @@
-import "./components/rest.parameters";
+import "./components/destructuring.assignment";
